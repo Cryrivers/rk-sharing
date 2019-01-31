@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "lib": ["es2018"],
+    "target": "es2015",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "strict": true
+  },
+  "include": ["./src/**/*.ts", "./schema/**/*.ts"]
+}
