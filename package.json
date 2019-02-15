@@ -8,6 +8,10 @@
     "watch": "nodemon"
   },
   "devDependencies": {
+    "@manta-style/builder-typescript": "^0.2.0-alpha.24",
+    "@manta-style/cli": "^0.2.0-alpha.24",
+    "@manta-style/mock-faker": "^0.2.0-alpha.24",
+    "@manta-style/runtime": "^0.2.0-alpha.24",
     "@types/koa": "^2.0.48",
     "@types/koa-router": "^7.0.39",
     "@types/prop-types": "^15.5.9",

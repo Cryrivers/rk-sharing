@@ -6,5 +6,5 @@
     "moduleResolution": "node",
     "strict": true
   },
-  "include": ["./src/**/*.ts", "./schema/**/*.ts"]
+  "include": ["./src/**/*.ts", "./schema/**/*.ts", "./manta-style-config.ts"]
 }
