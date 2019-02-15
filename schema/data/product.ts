@@ -1,3 +1,5 @@
+import { Country } from '../api';
+
 export type Product = {
   /**
    * The name of the product
@@ -19,4 +21,5 @@ export type Product = {
    * @example This is really a good product.
    */
   description: string;
+  country: Country;
 };
