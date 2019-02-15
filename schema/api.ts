@@ -32,13 +32,13 @@ export type GetProductsRequest = {
   country: Country;
 };
 
+type ProductList = {
+  products: Product[];
+};
+
 /**
  * The Response Data Schema for API /getProducts
  */
-export type GetProductsResponse = WithResponse<{
-  products: Product[];
-}>;
+export type GetProductsResponse = WithResponse<ProductList>;
 
-export type GetProductsResponseSuccess = WithResponseSuccess<{
-  products: Product[];
-}>;
+export type GetProductsResponseSuccess = WithResponseSuccess<ProductList>;
